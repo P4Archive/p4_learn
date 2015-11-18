@@ -1,0 +1,7 @@
+/build
+/.*_ts
+/dependmodules.x
+/myp4.mk
+/*.pcap
+/myp4
+/tests/pd_thrift

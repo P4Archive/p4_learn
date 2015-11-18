@@ -1,0 +1,9 @@
+scp add_demo_entries2.bash cse222a04@vm147.sysnet.ucsd.edu:~/p4_demo/p4factory/targets/myp4
+scp run_demo2.bash cse222a04@vm147.sysnet.ucsd.edu:~/p4_demo/p4factory/targets/myp4
+scp ./p4src/myp4.p4 cse222a04@vm147.sysnet.ucsd.edu:~/p4_demo/p4factory/targets/myp4/p4src
+scp myp4_mininet22.py cse222a04@vm147.sysnet.ucsd.edu:~/p4_demo/p4factory/mininet
+
+
+scp -r simple_switch cse222a04@vm147.sysnet.ucsd.edu:~/p4_demo/p4factory/targets/
+scp simple_switch_mininet.py cse222a04@vm147.sysnet.ucsd.edu:~/p4_demo/p4factory/mininet
+scp Makefile cse222a04@vm147.sysnet.ucsd.edu:~/p4_demo/p4factory/targets/simple_switch
